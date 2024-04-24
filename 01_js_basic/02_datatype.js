@@ -10,4 +10,5 @@
 // undefined => value is not defined 
 // symbol => used when we define unique
 let age =23
-console.table([typeof(age),typeof null, typeof undefined ])
+console.table([typeof(age),typeof null, typeof undefined ]) 
+console.log(age)
