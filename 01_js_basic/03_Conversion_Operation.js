@@ -43,3 +43,27 @@ console.log(typeof str1)
 let strInString = String(str1)
 console.log(strInString) 
 console.log( typeof strInString) 
+ 
+
+
+     /********************operation  **********/
+     //+ 
+    //  -
+    //  *
+    //  /
+    //  ** for power calculation
+
+    console.log(1+2)
+    console.log("1"+2)
+    console.log(1+"2")
+    console.log(1+2+"2") // first added then append on the back side  (It will print 32)
+    console.log("1"+2+2) // If string first then all treet as the string 
+    
+    console.log(+true)
+    // console.log(true+)  gives error
+    console.log(+"") // it will print 0
+    console.log(+"ANKIT") // it will print NaN
+
+    // console.log( type(+"ANKIT")) //  gives error type is not defined
+    
+    // about post  and pre fix 
