@@ -30,3 +30,24 @@ console.log(typeof myFunction)
 
 let BigInt= 2987975789475n
 console.log(BigInt)
+
+ //********************************************************* */
+ // Stack(Primitive) jo bhi variable define karenge uska copy hokar value milega 
+
+ let myName = "Ankit"
+ let myName1 = myName
+ myName1 = "babaji"// It can not change the value of myName
+ console.table([myName, myName1])
+
+
+//   Heap(Non-primitive) original variable ka refrence milega 
+
+let user1 = {
+    email: "user@google.com",
+    upid:"user@ybl"
+}
+let user2 = user1
+user2.upid= "abc@ybl"  // It will change upid in user1 also bcz it store in heap memory and the actual refrence is given
+console.log(user1)
+console.log(user2)
+
