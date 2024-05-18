@@ -43,7 +43,7 @@ console.log(typeof str1)
 let strInString = String(str1)
 console.log(strInString) 
 console.log( typeof strInString) 
- 
+ // if  we want to convert into Bigint then we have to ensure that the what is the data type of the referenced element
 
 
      /********************operation  **********/
@@ -60,7 +60,8 @@ console.log( typeof strInString)
     console.log("1"+2+2) // If string first then all treet as the string 
     
     console.log(+true)
-    // console.log(true+)  gives error
+console.log(true+ "")  // it will print true
+    // console.log(true+)  gives error unexpected token )
     console.log(+"") // it will print 0
     console.log(+"ANKIT") // it will print NaN
 
