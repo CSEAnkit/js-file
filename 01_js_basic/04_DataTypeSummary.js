@@ -5,12 +5,12 @@
 // Non primitive or (reference) 
 // Array , Objects,Functions
 
-// JavaScript is a dynamictype of langauge.
+// JavaScript is a dynamic type of langauge.
 
 let Id = Symbol('123')
 let AnotherId = Symbol('123') 
 // Both Symbols are not same 
-console.log(Id === AnotherId)
+console.log(Id === AnotherId) // It will print false.
 console.log(Id)
 console.log(AnotherId)
 
@@ -50,4 +50,7 @@ let user2 = user1
 user2.upid= "abc@ybl"  // It will change upid in user1 also bcz it store in heap memory and the actual refrence is given
 console.log(user1)
 console.log(user2)
-
+let array1 =[2,345,5,65,4,65,4 ]
+let array2= array1
+array2[2]=54 // it will also change the value 
+console.table([array1,array2])
