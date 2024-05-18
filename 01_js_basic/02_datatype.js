@@ -21,4 +21,5 @@ console.log(age)
 
 /*  type of null is obj
     type of undefined is undefined
+    type of Symbol is function 
 */
